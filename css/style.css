@@ -188,3 +188,102 @@ text-decoration: none;
     font-size: 14px;
     color: grey;
 }
+
+
+
+
+.latest-news{
+    color: rgba(3,3,3,0.4);
+    font:  16px/16px "Roboto Condensed",sans-serif;
+    font-size: 18px; 
+    font-weight: 600; 
+    margin-top: 10px;  
+}
+.third-col .media2 img{
+  border-radius: 0 0;
+    width: 123px;
+    height:93px;
+}
+
+.third-col .media-body:hover{
+	color: red;
+}
+
+
+/*********************** In the Mag ******************/
+
+.in-the-mag{
+	
+	background-color: blue;
+}
+
+.three-of-four{
+	height: 100px;
+	background-color: green;
+}
+
+.one-of-four-media img{
+	
+	padding-right: 0;
+	width: 100%;
+}
+.one-of-four-media{
+	padding-bottom: 0;
+	width: 100%;
+
+}
+.card-title {
+	padding-top: 350px;
+	margin-bottom: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  background-color: #E6E6E6;
+  height: 25px;
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  bottom: 30px;
+  left: 15px;
+  padding: 5px 5px;
+}
+
+.one-of-four .saf{
+	font-size: 20px;
+	height: 30px;
+	background-color: #DBDCDD;
+	color: black;
+	margin-top: 0 0;
+	padding-left: 5px;
+	/*width: inherit;*/
+}
+.far2{
+	font-size: 24px;
+	color: black;
+	float: right;
+	margin-right:  120px;
+	padding-bottom: 45px;
+	position: relative;
+	display: inline;
+}
+.one-of-four .img-bottom-head h5{
+	font-size: 18px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	margin-top: 0 0;
+	padding-left: 5px;
+	width: 25%;
+	
+}
+.one-of-four .img-bottom-head h3{
+	font-size: 18px;
+	height: 30px;
+	background-color: white;
+	color: red;
+	margin-top: 0 0;
+	padding-left: 5px;
+	width: 75%;
+
+}
