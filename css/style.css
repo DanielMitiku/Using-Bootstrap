@@ -412,3 +412,44 @@ text-decoration: none;
 	border: none;
 	padding-top: 0;
 }
+.footer{
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	height: 75px;
+	width: 95%;
+	margin: 0 auto;
+}
+.footer .magname{
+	font-size: 48px;
+	font-weight: 900;
+	float: left;
+	color: red;
+}
+.footer .copyright{
+	margin-top: 42px;
+	margin-left: 15px;
+	font-size: 12px;
+	float: left;
+
+}
+.footer .social-icons{
+	display: inline;
+}
+.genericon{
+	line-height: 24px;
+
+
+    font-size: 26px;
+    vertical-align: top;
+    text-align: center;
+    display: block;
+    font-family: "Genericons";
+    cursor: pointer;
+}
+.genericon a {
+    color: inherit;
+    text-decoration: none;
+}
+.genericon-facebook:before {
+    content: "\f203";
+}
