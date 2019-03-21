@@ -339,3 +339,11 @@ text-decoration: none;
   top: 162px;
   padding: 5px 5px;
 }
+
+.featured-card .card-title h5 {
+	font-weight: bold;
+}
+.featured-card .card-title a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
