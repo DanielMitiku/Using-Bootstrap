@@ -450,6 +450,58 @@ text-decoration: none;
     color: inherit;
     text-decoration: none;
 }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .genericon-facebook:before {
     content: "\f203";
+}
+
+.footer ul{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-links .menu  li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	border-right: 1px lightgrey solid;
+	margin: 5px 15px 5px 0;
+	padding-right: 10px;
+}
+.footer-links .menu  li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.flex-xs{
+	padding: 0 5px;
+}
+.flex-xs .menu li{
+	float: left;
+}
+.editions{
+	padding-left: 0;
+}
+.footer-links{
+	margin-bottom: 20px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-google, .fa-tumblr{
+	font-size: 25px;
+
+}
+.social-icons{
+	margin-top: 45px;
+	margin-left: 50px;
+
+}
+.social-icons li{
+	display: inline-block;
+	margin-right: 10px;
 }
