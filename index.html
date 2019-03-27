@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Using Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!--
+      <div class="container-fluid">-->
+
+    <div class="row-fluid headline">
+        <p class="headline-date"> Tue, Mar 19, 2019</p>
+        <h1>Newsweek</h1>
+        <span class="subscribe"><a href="#">SUBSCRIBE<i class="fa fa-angle-right"></i></a> </span>
+        <span class="signin"><a href="#">SIGN IN</a></span>
+    </div>
+
+
+    <!-------------------------- Navbar --------------->
+
+    <!--<div class="container-fluid">-->
+    <div class="row-fluid news-nav">
+
+        <nav class="navbar navbar-expand-lg ">
+            <!--<a class="navbar-brand" href="#">Navbar</a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active" id="first-li">
+                        <a class="nav-link" href="#">U.S. <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Tech & Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Opinion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1">Ndelible</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <i class="fa fa-search"></i>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                </form>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- end of navbar ------------>
+    <!-------------------------- Main Body --------------->
+    <div class="row main-body">
+        <!-------------------------- First Col --------------->
+        <div class="col col-lg-4 col-md-6 col-sm-12 col-12 first-col">
+            <div class="card main-left-card">
+                <p class=" header-text">Featured Story</p>
+                <img src="css/asset/img/donald-trump.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+            <div class="card main-left-card">
+                <img src="css/asset/img/alexandria.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+            <div class="card main-left-card">
+                <img src="css/asset/img/getty.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+            <div class="card main-left-card">
+                <img src="css/asset/img/donald-trump.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+            <div class="card main-left-card">
+                <img src="css/asset/img/alexandria.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-------------------------- End of First Col --------------->
+        <!-------------------------- Second Col --------------->
+        <div class="col col-lg-4 col-md-6 col-sm-12 col-12 second-col">
+            <div class="card main-middle-card">
+                <p class=" header-text">Top Story</p>
+                <img src="css/asset/img/main.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a>Impeaching Trump Is Worth It—If Only for Rule of Law</a></li>
+                </ul>
+            </div>
+            <div class="more-stories">
+                <p>More Stories<p>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/michelle-obama.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Top-aligned media</h5>
+                    <p>Cras sit amingilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/michelle-obama.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Top-aligned media</h5>
+                    <p>Cras sit amingilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/michelle-obama.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Top-aligned media</h5>
+                    <p>Cras sit amingilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/michelle-obama.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Top-aligned media</h5>
+                    <p>Cras sit amingilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/michelle-obama.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Top-aligned media</h5>
+                    <p>Cras sit amingilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+        </div>
+        <!-------------------------- End of Second Col --------------->
+        <!-------------------------- Third Col --------------->
+        <div class="col col-lg-4 col-md-6 col-sm-12 col-12 third-col">
+            <div class="more-stories">
+                <p>Opinion<p>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/third.png" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">A Tribute To My UN Colleagues Killed in Ethiopia</h5>
+                    <p>BY ANTÓNIO GUTERRES</p>
+                </div>
+            </div>
+
+
+            <div class="latest-news">
+                <p>LATEST NEWS<p>
+            </div>
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="media media2">
+                <img src="css/asset/img/latest-news.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Mike Trout Contract: The 10 Biggest Deals in Sports</h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <!-------------------------- End of Third Col --------------->
+    </div>
+
+    <!-------------------------- End of Main Body --------------->
+
+    <!-------------------------- In the Mag --------------->
+    <div class="row in-the-mag">
+        <div class="col-md-3 one-of-four">
+            <div class="media one-of-four-media">
+                <img src="css/asset/img/before-the-moon.jpg" alt="before-the-moon">
+                <div class=bottom-left>MARCH 22 ISSUE</div>
+
+            </div>
+            <div class="saf"><span>SEE ALL FEATURES<i class="fa fa-angle-right far2"></i></span></div>
+        </div>
+        <div class="col-md-9 three-of-four">
+            <div class="in-the-mag-heading">
+                IN THE MAGAZINE
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mag-card">
+                        <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                        <div class="card-body">
+                            <div>
+                                <span class="mag-downloads">DOWNLOADS</span>
+                                <span><a href="#">WORLD</a></span>
+                            </div>
+                            <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mag-card">
+                        <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                        <div class="card-body">
+                            <div>
+                                <span class="mag-downloads">DOWNLOADS</span>
+                                <span><a href="#">WORLD</a></span>
+                            </div>
+                            <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mag-card">
+                        <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                        <div class="card-body">
+                            <div>
+                                <span class="mag-downloads">DOWNLOADS</span>
+                                <span><a href="#">WORLD</a></span>
+                            </div>
+                            <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row in-the-mag">
+        <div class="col-md-3">
+            <div class="card mag-card">
+                <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <div>
+                        <span class="mag-downloads">DOWNLOADS</span>
+                        <span><a href="#">WORLD</a></span>
+                    </div>
+                    <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mag-card">
+                <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <div>
+                        <span class="mag-downloads">DOWNLOADS</span>
+                        <span><a href="#">WORLD</a></span>
+                    </div>
+                    <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mag-card">
+                <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <div>
+                        <span class="mag-downloads">DOWNLOADS</span>
+                        <span><a href="#">WORLD</a></span>
+                    </div>
+                    <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mag-card">
+                <img src="css/asset/img/feblockchain-impact.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="card-body">
+                    <div>
+                        <span class="mag-downloads">DOWNLOADS</span>
+                        <span><a href="#">WORLD</a></span>
+                    </div>
+                    <h5 class="card-title"><a>Why Trump May Settle for a Bad China Trade Deal</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- End of In the Mag --------------->
+
+    <!-------------------------- Editor's Pick --------------->
+    <div class="in-the-mag-heading">
+        Editor's Pick
+    </div>
+    <div class="row editors-pick">
+
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row editors-pick">
+
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card editor-card">
+                <img src="css/asset/img/editor.jpg" class="card-img-top" alt="Donald Trump">
+                <div class="editor-bottom-left">U.S.</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Sherman: Impeachment More Likely With Secret GOP Ballot</a></h5>
+                    <p class="card-text">California Representative Brad Sherman told Newsweek continued Republican
+                        support for the president is “not out of love for Trump.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------- End of Editor's Pick --------------->
+
+    <!-------------------------- Begin of Featured Pick --------------->
+    <div class="featured-heading">
+        FEATURED SLIDESHOWS
+    </div>
+
+    <div class="row featured-pick">
+
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row featured-pick">
+
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card featured-card">
+                <img src="css/asset/img/featured.jpg" class="card-img-top" alt="featured">
+                <div class="featured-bottom-left">16</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a>Matthew Broderick’s Birthday: His 15 Best Movies Ranked</a></h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------- End of Featured Pick --------------->
+    <!-------------------------- Below Featured Pick --------------->
+    <div class="below-featured-heading">
+        U.S
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/below.png" class="card-img-top" alt="featured">
+                <div class="card-body">
+                    <h5 class="card-title"><a>MAGA Hat Causes Disruption at Vigil for Massacre</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/below.png" class="card-img-top" alt="featured">
+                <div class="card-body">
+                    <h5 class="card-title"><a>MAGA Hat Causes Disruption at Vigil for Massacre</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/below-right.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Why a GOP State Lawmaker Wants to Debate Ocasio-Cortez</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/below-right.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Why a GOP State Lawmaker Wants to Debate Ocasio-Cortez</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/below-right.jpg" class="align-self-start mr-3" alt="Michelle Obama">
+                <div class="media-body">
+                    <h5 class="mt-0">Why a GOP State Lawmaker Wants to Debate Ocasio-Cortez</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="below-featured-heading">
+        WORLD
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/world-us.jpg" class="card-img-top" alt="world-us">
+                <div class="card-body">
+                    <h5 class="card-title"><a>U.S. Vows Israel Support, While Russia Seeks Iran Ties</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/world-canada.jpg" class="card-img-top" alt="world-canada">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Canada’s Cannabis Black Market ‘Never Been Better’: CEO</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/world-ukraine.jpg" class="align-self-start mr-3" alt="world-ukraine">
+                <div class="media-body">
+                    <h5 class="mt-0">Ukraine’s President Slaps New Sanctions on Hundreds</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/world-ukraine.jpg" class="align-self-start mr-3" alt="world-ukraine">
+                <div class="media-body">
+                    <h5 class="mt-0">Ukraine’s President Slaps New Sanctions on Hundreds</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/world-ukraine.jpg" class="align-self-start mr-3" alt="world-ukraine">
+                <div class="media-body">
+                    <h5 class="mt-0">Ukraine’s President Slaps New Sanctions on Hundreds</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="below-featured-heading">
+        BUSINESS
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/business-huge.jpg" class="card-img-top" alt="business-huge">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Huge Investment Growth Expected in Marijuana Startups</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/business-ivanka.jpg" class="card-img-top" alt="business-ivanka">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Ivanka, Kushner Use Government as 'Piggybank': Author</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/business-8leader.jpg" class="align-self-start mr-3" alt="business-8leader">
+                <div class="media-body">
+                    <h5 class="mt-0">8 Leadership Lessons from 'Game of Thrones'</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/business-8leader.jpg" class="align-self-start mr-3" alt="business-8leader">
+                <div class="media-body">
+                    <h5 class="mt-0">8 Leadership Lessons from 'Game of Thrones'</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/business-8leader.jpg" class="align-self-start mr-3" alt="business-8leader">
+                <div class="media-body">
+                    <h5 class="mt-0">8 Leadership Lessons from 'Game of Thrones'</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="below-featured-heading">
+        TECH & SCIENCE
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/tech-escape.jpg" class="card-img-top" alt="tech-escape">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Escape The Ayuwoki’s Villain is Disturbingly Familiar</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/tech-users.jpg" class="card-img-top" alt="tech-users">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Users Report LinkedIn Outage, Site Not Working</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/tech-sea.jpg" class="align-self-start mr-3" alt="tech-sea">
+                <div class="media-body">
+                    <h5 class="mt-0">‘Sea of Thieves’ Mega Update Trailer: Everything New</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/tech-sea.jpg" class="align-self-start mr-3" alt="tech-sea">
+                <div class="media-body">
+                    <h5 class="mt-0">‘Sea of Thieves’ Mega Update Trailer: Everything New</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/tech-sea.jpg" class="align-self-start mr-3" alt="tech-sea">
+                <div class="media-body">
+                    <h5 class="mt-0">‘Sea of Thieves’ Mega Update Trailer: Everything New</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="below-featured-heading">
+        CULTURE
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/culture-where.jpg" class="card-img-top" alt="culture-where">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Where Is ‘My 600-Lb. Life’ Subject Aaron Washer Now?</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/culture-skinny.jpg" class="card-img-top" alt="culture-skinny">
+                <div class="card-body">
+                    <h5 class="card-title"><a>SkinnyMe Tea Uses Eating Disorder Survivor's Photo</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/culture-chance.jpg" class="align-self-start mr-3" alt="culture-chance">
+                <div class="media-body">
+                    <h5 class="mt-0">Chance the Rapper Seemingly Questions Evolution</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/culture-chance.jpg" class="align-self-start mr-3" alt="culture-chance">
+                <div class="media-body">
+                    <h5 class="mt-0">WChance the Rapper Seemingly Questions Evolution</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/culture-chance.jpg" class="align-self-start mr-3" alt="culture-chance">
+                <div class="media-body">
+                    <h5 class="mt-0">Chance the Rapper Seemingly Questions Evolution</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="below-featured-heading">
+        SPORTS
+    </div>
+    <div class="row below-featured-pick">
+
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/sports-why.jpg" class="card-img-top" alt="sports-why">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Why Has TJ Dillashaw Given Up UFC Bantamweight Title ?</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card below-featured-card">
+                <img src="css/asset/img/sports-twitter.jpg" class="card-img-top" alt="sports-twitter">
+                <div class="card-body">
+                    <h5 class="card-title"><a>Twitter Wants to See Obama's March Madness Bracket</a></h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media first-media">
+                <img src="css/asset/img/sports-network.jpg" class="align-self-start mr-3" alt="sports-network">
+                <div class="media-body">
+                    <h5 class="mt-0">Network Blasted for Deleting Photo of Female Athlete</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/sports-network.jpg" class="align-self-start mr-3" alt="sports-network">
+                <div class="media-body">
+                    <h5 class="mt-0">Network Blasted for Deleting Photo of Female Athlete</h5>
+                </div>
+            </div>
+            <div class="media">
+                <img src="css/asset/img/sports-network.jpg" class="align-self-start mr-3" alt="sports-network">
+                <div class="media-body">
+                    <h5 class="mt-0">Network Blasted for Deleting Photo of Female Athlete</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------- End of Below Featured Pick --------------->
+
+    <!-------------------------- Begin of Footer            --------------->
+    <div class="row footer">
+    <div class="row col-md-8 col-sm-12 col-12">  
+    <div class="magname">
+      Newsweek
+    </div>
+    <div class="copyright">@2019 NEWSWEEK</div>
+    </div>
+    <div class="row col-md-4 col-sm-12 col-12">
+    <div class="social-icons">
+      <ul>
+        <li><i class="fa fa-facebook"></i></li>
+        <li><i class="fa fa-twitter"></i></li>
+        <li><i class="fa fa-google"></i></li>
+        <li><i class="fa fa-instagram"></i></li>
+        <li><i class="fa fa-tumblr"></i></li>
+        <li><i class="fa fa-linkedin"></i></li>
+        
+    </ul>
+    </div>
+  </div>
+  </div>
+
+    <!-- trying footer links -->
+
+    <div class="footer-links">
+      <div class="row">
+        <div class="footer-links-menu col-md-8 col-sm-12 col-12">
+          <ul class="menu"><li class="first leaf"><a href="/about-newsweek">About Us</a></li><li class="leaf"><a href="/corrections">Corrections</a></li><li class="leaf"><a href="/contact">Contact Us</a></li><li class="leaf"><a href="/editorial-guidelines">Editorial Guidelines</a></li><li class="leaf"><a href="/advertise">Advertise</a></li><li class="leaf"><a href="/copyright">Copyright</a></li><li class="leaf"><a href="/terms-service">Terms &amp; Conditions</a></li><li class="leaf"><a href="/privacy-policy">Privacy Policy</a></li><li class="leaf"><a href="/cookie-policy">Cookie Policy</a></li><li class="leaf"><a href="/terms-sale">Terms of Sale</a></li><li class="leaf"><a href="https://www.newsweek.com/archive">Archive</a></li><li class="last leaf"><a href="https://www.newsweek.com/announcements">Announcements</a></li><li>
+          <a href="javascript:Didomi.preferences.show()" class="change-consent">Consent preferences</a></li></ul> 
+        </div>
+
+          <div class="footer-links-edition col-md-1 col-sm-12 col-12 flex-xs"> <label style="margin-top:6px;margin-right:15px;margin-left:5px;"><strong>Editions:</strong></label>
+            </div><div class="col-md-3 col-12 editions"><ul class="menu"><li class="first leaf"><a href="https://www.newsweek.com/" class="us-edition-link">U.S. Edition</a></li><li class="leaf"><a href="http://newsweekme.com/" rel="nofollow" target="_blank">Middle East</a></li><li class="leaf"><a href="https://www.newsweekjapan.jp/" rel="nofollow" target="_blank">日本</a></li><li class="leaf"><a href="http://newsweekkorea.com/" rel="nofollow" target="_blank">한국</a></li><li class="leaf"><a href="http://newsweekpakistan.com/" rel="nofollow" target="_blank">Pakistan</a></li><li class="leaf"><a href="https://www.newsweek.pl/" rel="nofollow" target="_blank">Polska</a></li><li class="last leaf"><a href="https://newsweek.ro/" rel="nofollow" target="_blank">România</a></li></ul>
+          </div>
+
+  </div>
+</div>
+
+      <!-- footer links trial end -->
+
+    <!-------------------------- End of Footer            --------------->
+</body>
+
+</html>
+
+
+<!--<ul class="social flex-xs ai-fe"><li><a class="genericon genericon-facebook" href="https://www.facebook.com/Newsweek" target="_blank"></a></li><li><a class="genericon genericon-twitter" href="https://twitter.com/Newsweek" target="_blank"></a></li><li><a class="genericon genericon-googleplus" href="https://plus.google.com/+NewsweekMag" rel="nofollow" target="_blank"></a></li><li><a class="genericon genericon-instagram" href="https://instagram.com/newsweek/" rel="nofollow" target="_blank"></a></li><li><a class="genericon genericon-tumblr" href="https://newsweekscience.tumblr.com/" rel="nofollow" target="_blank"></a></li><li><a class="genericon genericon-linkedin" href="https://www.linkedin.com/company/newsweek" rel="nofollow" target="_blank"></a></li></ul>-->
